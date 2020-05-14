@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div class="login-box">
+            <div class="form">
+            <form class="register" action="registration.php" method="POST">
+                Username: <input type="text" name="username" placeholder="Enter username..."><br>
+                E-mail: <input type="text" name="email" placeholder="Enter E-mail..."><br>
+                Password: <input type="password" name="password" placeholder="Enter password..."><br>
+                <button type="submit">Register</button>
+                <p class="message">Already registered? <a href="#">Login</a></a> </p>
+            </form>
+            <form class="login-form" action="home.php" method="POST">
+                    Username: <input type="text" name="username" placeholder="Enter Username..."><br>
+                    Password: <input type="password" name="password" placeholder="Enter password..."><br>
+                    <button type="submit">Login</button>
+                    <p class="message">Not Registered? <a href="#">Register</a></p>
+            </form>
+            </div>
+        </div>
+
+    </body>
+</html>
